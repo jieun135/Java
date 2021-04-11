@@ -1,0 +1,28 @@
+
+public class Triangle {
+
+	public static void main(String[] args) {
+		TriangleF t = new TriangleF(10.0, 5.0);
+		System.out.println(t.findArea());
+	}
+}
+
+class TriangleF{
+	private double side;
+	private double height;
+	
+	public TriangleF(double height, double side) {
+		this.height = height;
+		this.side = side;
+	}
+	
+	public double getHeight() {
+		return height;
+	}
+	public double getSide() {
+		return side;
+	}
+	public double findArea() {
+		return side * height * 0.5;
+	}
+}

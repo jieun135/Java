@@ -1,0 +1,29 @@
+class Animals{
+	String value;
+	static String result;
+	
+	String tiger() {
+		result = "달려가다";
+	}
+	String eagle() {
+		result = "날아가다";
+	}
+	String fish() {
+		result = "헤엄치다";
+	}
+	
+	void show() {
+		System.out.print(result);
+	}
+}
+
+public class Animal {
+
+	public static void main(String[] args) {
+		Animals myAnimal = new Animals();
+		
+		myAnimal.value = ""
+
+	}
+
+}

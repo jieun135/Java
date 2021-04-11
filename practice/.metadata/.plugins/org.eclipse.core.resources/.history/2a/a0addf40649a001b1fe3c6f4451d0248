@@ -1,0 +1,19 @@
+public class Foo {
+
+	public static void main(String[] args) {
+		foo("æ»≥Á",1);
+		foo("æ»≥Á«œººø‰", 1,2);
+		foo("¿ﬂ ¿÷æÓ");
+	}
+	
+	public static void foo(String s, int a){
+		System.out.printf("%s %d\n", s,a);
+	}
+	public static void foo(String s, int a, int b) {
+		System.out.printf("$s %d %d \n", s,a,b);
+	}
+	public static void foo(String s) {
+		System.out.printf("%s \n", s);
+	}
+
+}
